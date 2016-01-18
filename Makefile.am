@@ -78,5 +78,5 @@ src/static/permutation/PermutationBuilderWT.cpp \
 src/static/mapper/MapperRev.cpp
  
 libcds_la_CPPFLAGS = -I$(builddir)/include
-
+libcds_la_LDFLAGS = -version-info 0:0:0
 pkginclude_HEADERS = include/*

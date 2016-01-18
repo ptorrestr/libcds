@@ -1,4 +1,4 @@
-AC_INIT([cds], [1.0.12], [email@someone.com])
+AC_INIT([cds], [1.0.12], [pablo.torres@insight-centre.org])
 LT_INIT
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AM_SILENT_RULES([yes])
