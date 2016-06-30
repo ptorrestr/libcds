@@ -1,3 +1,5 @@
+# Libcds
+
 libcds implements low-level succinct data structures such as bitmaps,
 sequences, permutations, etc. The main goal is to provide a set of
 structures that form the building block of most compressed/succinct
@@ -10,3 +12,9 @@ Right now we are just fixing bugs and testing some new things in here,
 but most of the effort is being put into libcds2, this rewrite aims at
 solving many problems with 64bits systems. This is necessary in order
 to index bigger inputs.
+
+## Development
+
+Generate release version:
+
+``mkdir m4 && autoreconf --install``
